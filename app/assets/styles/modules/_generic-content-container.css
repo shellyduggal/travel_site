@@ -3,7 +3,8 @@
 	p {
 		text-align: justify;
 		line-height: 1.65;
-		margin: 1.8rem 0;
+		margin-bottom: 1.8rem;
+		font-weight: 300;
 	}
 
 	p a {
