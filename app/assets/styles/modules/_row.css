@@ -94,7 +94,7 @@
 
 
 	/*Begin Equal Height Rules*/
-	&--equal-height-at-large {
+	.flexbox &--equal-height-at-large {
 		@mixin atLarge {
 			display: flex;
 		}
