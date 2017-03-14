@@ -27,7 +27,7 @@ class Modal {
 
 	openModal() {
 		this.modal.addClass('modal--is-visible');
-		return false; //keeps it from scrolling to top of page when # link is clicked
+		return false; //keeps it from scrolling to top of page when a null(#) link is clicked
 	}
 
 	closeModal() {

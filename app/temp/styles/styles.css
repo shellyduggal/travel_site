@@ -1259,15 +1259,15 @@ a {
 }
 
 .modal__close {
+  -webkit-transform: scaleX(1.2);
+          transform: scaleX(1.2);
+  -webkit-transform-origin: 100% 0;
+          transform-origin: 100% 0;
   position: absolute;
   top: 15px;
   right: 15px;
   color: #2f5572;
   font-size: 2rem;
-  -webkit-transform: scaleX(1.2);
-          transform: scaleX(1.2);
-  -webkit-transform-origin: 100% 0;
-          transform-origin: 100% 0;
 }
 
 .modal__close:hover {

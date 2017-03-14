@@ -33,13 +33,14 @@
 	}
 
 	&__close {
+		transform: scaleX(1.2);
+		transform-origin: 100% 0;
 		position: absolute;
 		top: 15px;
 		right: 15px;
 		color: $mainBlue;
 		font-size: 2rem;
-		transform: scaleX(1.2);
-		transform-origin: 100% 0;
+		
 
 		&:hover {
 			color: $mainOrange; 
