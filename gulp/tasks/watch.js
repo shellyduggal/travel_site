@@ -8,9 +8,11 @@ gulp.task('watch', function() {
 			baseDir: "app"
 		}
 	});
+
 	watch('./app/index.html', function(){
 		browserSync.reload();
 	});
+	
 	watch('./app/assets/styles/**/*.css', function() {
 		gulp.start('cssInject');
 	});
